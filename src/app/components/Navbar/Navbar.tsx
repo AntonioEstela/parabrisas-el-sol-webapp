@@ -25,8 +25,8 @@ export default function Navbar() {
   return (
     <nav className={`flex justify-between p-4`}>
       <Image src='/logo-without-bg.png' alt='Parabrisas el sol logo' width={250} height={0} />
-      <div className='md:hidden flex items-center absolute top-0 right-0'>
-        <Menu right customBurgerIcon={hamburguerSVG} width={250}>
+      <div className='absolute top-0 right-0 md:hidden'>
+        <Menu right customBurgerIcon={hamburguerSVG} width={250} itemListElement='div'>
           <a id='home' className='menu-item' href='#'>
             Servicios
           </a>
@@ -42,7 +42,7 @@ export default function Navbar() {
         </Menu>
       </div>
 
-      <nav className='hidden md:flex items-center w-96 justify-around'>
+      <div className='items-center justify-around hidden md:flex w-96'>
         <a href='#' className='nav-item'>
           Servicios
         </a>
@@ -55,7 +55,7 @@ export default function Navbar() {
         <a href='#' className='nav-item'>
           Contacto
         </a>
-      </nav>
+      </div>
     </nav>
   );
 }

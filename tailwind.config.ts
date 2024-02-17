@@ -14,6 +14,8 @@ const config: Config = {
       },
       colors: {
         'own-yellow': '#FDC826',
+        'blue-secondary': '#02B3E8',
+        'blue-secondary-hover': '#0189B2',
       },
     },
   },

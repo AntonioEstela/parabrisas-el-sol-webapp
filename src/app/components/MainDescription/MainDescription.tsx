@@ -15,6 +15,12 @@ export default function MainDescription() {
         nuestros productos en cada rincón del país. Confía en la calidad que nos distingue y encuentra la solución
         perfecta para tus necesidades automotrices con nosotros.
       </p>
+      <a
+        href='#'
+        className='inline-block px-8 py-3 my-10 font-medium text-center text-white border border-transparent rounded-md bg-blue-secondary hover:bg-blue-secondary-hover'
+      >
+        Cotiza con nosotros
+      </a>
     </section>
   );
 }

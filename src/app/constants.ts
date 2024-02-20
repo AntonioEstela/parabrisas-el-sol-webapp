@@ -4,13 +4,13 @@ export const servicios: Array<ServicioCardProps> = [
   {
     description:
       'Reparamos fisuras (quebraduras) en parabrisas y vidrios laminados. Ahorra dinero y tiempo. Reparemos tu parabrisas dañado en lugar de reemplazarlo.',
-    imageUrl: '/reparacion-de-fisura.jpg',
+    imageUrl: '/reparacion-fisura.jpg',
     title: 'Reparación de fisuras',
   },
   {
     description:
       'Eliminamos rayones y desperfectos de forma profesional, mejorando la visibilidad, seguridad y valor de tu propiedad.',
-    imageUrl: '/reparacion-fisura.jpg',
+    imageUrl: '/reparacion-de-fisura.jpg',
     title: 'Reparación de rayones en vidrios',
   },
   {

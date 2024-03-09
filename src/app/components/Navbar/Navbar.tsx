@@ -27,32 +27,32 @@ export default function Navbar() {
       <Image src='/logo-without-bg.png' alt='Parabrisas el sol logo' width={250} height={0} />
       <div className='absolute top-0 right-0 md:hidden'>
         <Menu right customBurgerIcon={hamburguerSVG} width={250} itemListElement='div'>
-          <a id='home' className='menu-item' href='#'>
+          <a id='home' className='menu-item' href='#servicios'>
             Servicios
           </a>
-          <a id='about' className='menu-item' href='#'>
+          <a id='about' className='menu-item' href='#galeria'>
             Galería
           </a>
-          <a id='contact' className='menu-item' href='#'>
+          <a id='contact' className='menu-item' href='#ubicaciones'>
             Ubicaciones
           </a>
-          <a onClick={showSettings} className='menu-item--small' href=''>
+          <a onClick={showSettings} className='menu-item--small' href='#contacto'>
             Contacto
           </a>
         </Menu>
       </div>
 
       <div className='items-center justify-around hidden md:flex w-96'>
-        <a href='#' className='nav-item'>
+        <a href='#servicios' className='nav-item'>
           Servicios
         </a>
-        <a href='#' className='nav-item'>
+        <a href='#galeria' className='nav-item'>
           Galería
         </a>
-        <a href='#' className='nav-item'>
+        <a href='#ubicaciones' className='nav-item'>
           Ubicaciones
         </a>
-        <a href='#' className='nav-item'>
+        <a href='#contacto' className='nav-item'>
           Contacto
         </a>
       </div>

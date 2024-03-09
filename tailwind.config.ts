@@ -17,6 +17,12 @@ const config: Config = {
         'blue-secondary': '#02B3E8',
         'blue-secondary-hover': '#0189B2',
       },
+      width: {
+        'width-32rem': '32rem',
+      },
+      height: {
+        'height-32rem': '32rem',
+      },
     },
   },
   plugins: [],

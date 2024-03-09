@@ -1,48 +1,64 @@
 'use client';
-import { useLayoutEffect } from 'react';
+import { useLayoutEffect, useState } from 'react';
+
+declare global {
+  interface Window {
+    cloudinary: any;
+  }
+}
 
 function GaleriaComponent() {
-  useLayoutEffect(() => {
-    const myWidget = cloudinary.galleryWidget({
-      container: '#gallery',
-      cloudName: 'dcpyo74ez',
-      mediaAssets: [
-        {
-          tag: 'gallery',
-          mediaType: 'image',
-        },
-      ],
-      transformation: {
-        crop: 'fill',
-        radius: 20,
-        background: 'transparent',
-      },
-      bgColor: 'transparent',
-      carouselStyle: 'indicators',
-      carouselLocation: 'bottom',
-      carouselOffset: 10,
-      indicatorProps: {
-        color: '#FFF9BB',
-        selectedColor: '#FDC826',
-      },
-      navigationButtonProps: {
-        shape: 'round',
-        iconColor: '#000000',
-        color: '#FDC826',
-        size: 40,
-      },
-      navigationPosition: 'offset',
-      navigationOffset: -50,
-      loaderProps: {
-        style: 'circle',
-        color: '#000000',
-      },
-      secureDistribution: 'res-s.cloudinary.com',
-      transition: 'fade',
-    });
+  const [cloudinaryLoaded, setCloudinaryLoaded] = useState(false);
 
-    myWidget.render();
+  useLayoutEffect(() => {
+    if (typeof window.cloudinary !== 'undefined') {
+      setCloudinaryLoaded(true);
+    }
   }, []);
+
+  useLayoutEffect(() => {
+    if (cloudinaryLoaded) {
+      const myWidget = window.cloudinary.galleryWidget({
+        container: '#gallery',
+        cloudName: 'dcpyo74ez',
+        mediaAssets: [
+          {
+            tag: 'gallery',
+            mediaType: 'image',
+          },
+        ],
+        transformation: {
+          crop: 'fill',
+          radius: 20,
+          background: 'transparent',
+        },
+        bgColor: 'transparent',
+        carouselStyle: 'indicators',
+        carouselLocation: 'bottom',
+        carouselOffset: 10,
+        indicatorProps: {
+          color: '#FFF9BB',
+          selectedColor: '#FDC826',
+        },
+        navigationButtonProps: {
+          shape: 'round',
+          iconColor: '#000000',
+          color: '#FDC826',
+          size: 40,
+        },
+        navigationPosition: 'offset',
+        navigationOffset: -50,
+        loaderProps: {
+          style: 'circle',
+          color: '#000000',
+        },
+        secureDistribution: 'res-s.cloudinary.com',
+        transition: 'fade',
+      });
+
+      myWidget.render();
+    }
+  }, [cloudinaryLoaded]);
 
   return <div id='gallery'></div>;
 }

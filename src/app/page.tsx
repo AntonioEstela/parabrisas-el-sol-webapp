@@ -7,6 +7,7 @@ import Script from 'next/script';
 import Servicios from './components/Servicios/Servicios';
 import Ubicaciones from './components/Ubicaciones/Ubicaciones';
 import Contacto from './components/Contacto/Contacto';
+import Footer from './components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <GaleriaSection />
       <Ubicaciones />
       <Contacto />
+      <Footer />
     </main>
   );
 }

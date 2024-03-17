@@ -16,6 +16,8 @@ const config: Config = {
         'own-yellow': '#FDC826',
         'blue-secondary': '#02B3E8',
         'blue-secondary-hover': '#0189B2',
+        'gray-secondary': '#5E625E',
+        'green-primary': '#59CD90',
       },
       width: {
         'width-32rem': '32rem',
@@ -25,6 +27,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 };
 export default config;

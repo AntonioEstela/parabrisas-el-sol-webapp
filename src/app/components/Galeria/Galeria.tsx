@@ -73,7 +73,7 @@ export default function GaleriaSection() {
         Imágenes impactantes de procesos, transformaciones asombrosas y más. Sumérgete en la excelencia visual que
         define nuestro trabajo y descubre el antes y después que marcan la diferencia en cada servicio que ofrecemos.
       </p>
-      <div className='w-2/3 md:w-1/3 md:h-1/3 mb-5'>
+      <div className='w-2/3 mb-5 md:w-1/3 md:h-1/3'>
         <GaleriaComponent />
       </div>
     </section>

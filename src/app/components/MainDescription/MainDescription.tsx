@@ -16,7 +16,7 @@ export default function MainDescription() {
         perfecta para tus necesidades automotrices con nosotros.
       </p>
       <a
-        href='#'
+        href='#contacto'
         className='inline-block px-8 py-3 my-10 font-medium text-center text-white border border-transparent rounded-md bg-blue-secondary hover:bg-blue-secondary-hover'
       >
         Cotiza con nosotros

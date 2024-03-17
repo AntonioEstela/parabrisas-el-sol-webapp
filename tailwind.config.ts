@@ -18,6 +18,7 @@ const config: Config = {
         'blue-secondary-hover': '#0189B2',
         'gray-secondary': '#5E625E',
         'green-primary': '#59CD90',
+        'black-secondary': '#1D1D1D',
       },
       width: {
         'width-32rem': '32rem',

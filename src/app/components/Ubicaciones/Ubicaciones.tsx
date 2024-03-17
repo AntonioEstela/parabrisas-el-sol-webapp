@@ -1,4 +1,4 @@
-import { AdvancedMarker, APIProvider, InfoWindow, Map } from '@vis.gl/react-google-maps';
+import { AdvancedMarker, APIProvider, Map } from '@vis.gl/react-google-maps';
 
 function GoogleMapsWrapper() {
   const positionLasAmericas = { lat: 3.4644985, lng: -76.526611 };
@@ -25,7 +25,7 @@ function GoogleMapsWrapper() {
 
 export default function Ubicaciones() {
   return (
-    <section className='flex flex-col items-center mb-10'>
+    <section className='flex flex-col items-center' id='ubicaciones'>
       <h2 className='my-10 text-3xl font-bold text-center md:my-10 text-own-yellow md:text-5xl' id='galeria'>
         Ubicaciones
       </h2>

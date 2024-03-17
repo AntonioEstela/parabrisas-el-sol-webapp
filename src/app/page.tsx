@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Script from 'next/script';
 import Servicios from './components/Servicios/Servicios';
 import Ubicaciones from './components/Ubicaciones/Ubicaciones';
+import Contacto from './components/Contacto/Contacto';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Servicios />
       <GaleriaSection />
       <Ubicaciones />
+      <Contacto />
     </main>
   );
 }

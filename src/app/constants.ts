@@ -19,25 +19,25 @@ export const servicios: Array<ServicioCardProps> = [
   {
     description:
       'Fabricación de vidrios para todo tipo de vehículos. Calidad profesional, óptimos materiales y atención personalizada. Instalaciones aptas para cualquier tipo de vehículo.',
-    imageUrl: `${imageCdnEndpoint}/fabricacion-vidrios`,
+    imageUrl: `${imageCdnEndpoint}/proceso-detailing`,
     title: 'Vidrios a la medida',
   },
   {
     description:
       '¡Experimenta la potencia del polarizado nanocerámico! Reduce el calor 5 veces más que los convencionales, filtra el 90% de los rayos UV, ¡sin cambiar la apariencia interior del vidrio! ¡Deslumbra con eficiencia!',
-    imageUrl: `${imageCdnEndpoint}/resultado-polarizado`,
+    imageUrl: `${imageCdnEndpoint}/sotzozsbeq62bkfeou3n`,
     title: 'Polarizado Nanocerámico',
   },
   {
     description:
       'Transformamos tu vehículo con nuestro servicio de Detailing y embellecimiento. Devolvemos el brillo original, cuidamos cada detalle y dejamos tu auto impecable. Descubre el arte de la belleza automotriz con nosotros.',
-    imageUrl: `${imageCdnEndpoint}/proceso-detailing`,
+    imageUrl: `${imageCdnEndpoint}/fota85mnoenztqywwyq5`,
     title: 'Detailing',
   },
   {
     description:
       'Garantizamos la excelencia en el mantenimiento de vidrios y puertas para vehículos blindados. Confía en nosotros para mantener tu seguridad en óptimas condiciones.',
-    imageUrl: `${imageCdnEndpoint}/trabajo-parabrisas-blindado`,
+    imageUrl: `${imageCdnEndpoint}/kkkblfomphfev2uoml4n`,
     title: 'Blindados: Mantenimiento de Vidrios y Puertas',
   },
 ];

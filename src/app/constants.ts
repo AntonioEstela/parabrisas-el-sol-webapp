@@ -42,13 +42,13 @@ export const servicios: Array<ServicioCardProps> = [
   },
   {
     description:
-      'Ofrecemos servicios de pintura general y express para todo tipo de vehículos. Ya sea que necesites una renovación completa o una reparación rápida, nuestro equipo está listo para transformar tu vehículo.',
+      'Ofrecemos servicios de pintura general y express para todo tipo de vehículos. Utilizamos materiales de alta calidad y técnicas avanzadas para garantizar un acabado impecable y duradero. Ya sea que necesites una renovación completa o una reparación rápida, nuestro equipo está listo para transformar tu vehículo.',
     imageUrl: `${imageCdnEndpoint}/cjco8wt80kkfmzu9gpz7`,
     title: 'Pintura General y Express',
   },
   {
     description:
-      'Proveemos y instalamos parabrisas de alta calidad para todos los modelos de vehículos. Nuestro servicio profesional asegura un ajuste perfecto y una instalación segura, aumentando la durabilidad y la seguridad de tu vehículo.',
+      'Proveemos y instalamos parabrisas de alta calidad para todos los modelos de vehículos. Nuestro servicio profesional asegura un ajuste perfecto y una instalación segura, aumentando la durabilidad y la seguridad de tu vehículo. Confía en nosotros para mantener tu vista despejada y tu viaje seguro.',
     imageUrl: `${imageCdnEndpoint}/krocpdhzwuocawb2kjrv`,
     title: 'Venta e Instalación de Parabrisas',
   },

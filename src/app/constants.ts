@@ -40,4 +40,16 @@ export const servicios: Array<ServicioCardProps> = [
     imageUrl: `${imageCdnEndpoint}/kkkblfomphfev2uoml4n`,
     title: 'Blindados: Mantenimiento de Vidrios y Puertas',
   },
+  {
+    description:
+      'Ofrecemos servicios de pintura general y express para todo tipo de vehículos. Ya sea que necesites una renovación completa o una reparación rápida, nuestro equipo está listo para transformar tu vehículo.',
+    imageUrl: `${imageCdnEndpoint}/cjco8wt80kkfmzu9gpz7`,
+    title: 'Pintura General y Express',
+  },
+  {
+    description:
+      'Proveemos y instalamos parabrisas de alta calidad para todos los modelos de vehículos. Nuestro servicio profesional asegura un ajuste perfecto y una instalación segura, aumentando la durabilidad y la seguridad de tu vehículo.',
+    imageUrl: `${imageCdnEndpoint}/krocpdhzwuocawb2kjrv`,
+    title: 'Venta e Instalación de Parabrisas',
+  },
 ];

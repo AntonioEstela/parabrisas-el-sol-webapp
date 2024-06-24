@@ -1,6 +1,7 @@
 import React from 'react';
 import WhatsappIcon from '@/app/SVG/WhatsappIcon';
 import InstagramIcon from '@/app/SVG/InstagramIcon';
+import MailIcon from '@/app/SVG/MailIcon';
 
 const Footer: React.FC = () => {
   return (
@@ -16,6 +17,10 @@ const Footer: React.FC = () => {
             <li className='flex flex-row items-center mt-4'>
               <InstagramIcon />
               <p className='ml-5'>@parabrisaselsol</p>
+            </li>
+            <li className='flex flex-row items-center mt-4'>
+              <MailIcon />
+              <p className='ml-5'>gilcla2@hotmail.com</p>
             </li>
           </ul>
         </div>

@@ -48,7 +48,7 @@ export const servicios: Array<ServicioCardProps> = [
   },
   {
     description:
-      'Proveemos y instalamos parabrisas de alta calidad para todos los modelos de vehículos. Nuestro servicio profesional asegura un ajuste perfecto y una instalación segura, aumentando la durabilidad y la seguridad de tu vehículo. Confía en nosotros para mantener tu vista despejada y tu viaje seguro.',
+      'Proveemos e instalamos parabrisas de alta calidad para todos los modelos de vehículos. Nuestro servicio profesional asegura un ajuste perfecto y una instalación segura, aumentando la durabilidad y la seguridad de tu vehículo. Confía en nosotros para mantener tu vista despejada y tu viaje seguro.',
     imageUrl: `${imageCdnEndpoint}/krocpdhzwuocawb2kjrv`,
     title: 'Venta e Instalación de Parabrisas',
   },
